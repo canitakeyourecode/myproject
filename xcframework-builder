@@ -1,0 +1,32 @@
+
+FRAMEWORK_NAME="MyProject"
+FRAMEWORK_FULLNAME="${FRAMEWORK_NAME}.framework"
+IPHONEOS_ARCHIVE_PATH="./build/${FRAMEWORK_NAME}.framework-iphoneos.xcarchive"
+IPHONESIMULATOR_ARCHIVE_PATH="./build/${FRAMEWORK_NAME}.framework-iphonesimulator.xcarchive"
+FRAMEWORKS_SUBPATH="Products/Library/Frameworks"
+
+xcodebuild archive \
+-workspace $FRAMEWORK_NAME.xcworkspace \
+-scheme $FRAMEWORK_NAME \
+-configuration Release \
+-destination "generic/platform=iOS" \
+-archivePath $IPHONEOS_ARCHIVE_PATH \
+SKIP_INSTALL=NO \
+BUILD_LIBRARY_FOR_DISTRIBUTION=YES
+
+xcodebuild archive \
+-workspace $FRAMEWORK_NAME.xcworkspace \
+-scheme $FRAMEWORK_NAME \
+-configuration Release \
+-destination "generic/platform=iOS Simulator" \
+-archivePath $IPHONESIMULATOR_ARCHIVE_PATH \
+SKIP_INSTALL=NO \
+BUILD_LIBRARY_FOR_DISTRIBUTION=YES
+
+xcodebuild -create-xcframework \
+-framework $IPHONEOS_ARCHIVE_PATH/$FRAMEWORKS_SUBPATH/$FRAMEWORK_FULLNAME \
+-framework $IPHONESIMULATOR_ARCHIVE_PATH/$FRAMEWORKS_SUBPATH/$FRAMEWORK_FULLNAME \
+-output ./build/$FRAMEWORK_NAME.xcframework
+
+rm -rf $IPHONEOS_ARCHIVE_PATH
+rm -rf $IPHONESIMULATOR_ARCHIVE_PATH
