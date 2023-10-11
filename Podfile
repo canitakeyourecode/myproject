@@ -3,14 +3,15 @@
 platform :ios, '13.0'
 source 'https://github.com/CocoaPods/Specs.git'
 
-pod 'YandexMobileAds' #, '5.9.1'
-pod 'YandexMobileAdsInstream' #, '0.18.0'
+
+pod 'GoogleAds-IMA-iOS-SDK'
 
 target 'MyProject' do
   # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
-
-  # Pods for MyProject
+  use_frameworks! :linkage => :static
+ 
+  pod 'YandexMobileAds'
+  pod 'YandexMobileAdsInstream'
 
 end
 
