@@ -1,5 +1,5 @@
 
-FRAMEWORK_NAME="MyProject"
+FRAMEWORK_NAME="ProjectForYandexAds"
 FRAMEWORK_FULLNAME="${FRAMEWORK_NAME}.framework"
 IPHONEOS_ARCHIVE_PATH="./build/${FRAMEWORK_NAME}.framework-iphoneos.xcarchive"
 IPHONESIMULATOR_ARCHIVE_PATH="./build/${FRAMEWORK_NAME}.framework-iphonesimulator.xcarchive"
