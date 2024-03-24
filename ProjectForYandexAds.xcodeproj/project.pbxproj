@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EE9C397E500EE763413BDE3 /* Pods_ProjectForYandexAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB0A8B96DC6208F24A758DB /* Pods_ProjectForYandexAds.framework */; };
+		4F70D2ABD9D334EA8CD42C3B /* Pods_ProjectForYandexAdsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590D2040AFF5FC50A5ABD2E0 /* Pods_ProjectForYandexAdsDemo.framework */; };
+		AB8CCF512BA876C900250528 /* ProjectForYandexAds.docc in Sources */ = {isa = PBXBuildFile; fileRef = AB8CCF502BA876C900250528 /* ProjectForYandexAds.docc */; };
+		AB8CCF572BA876C900250528 /* ProjectForYandexAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8CCF4C2BA876C900250528 /* ProjectForYandexAds.framework */; };
+		AB8CCF5C2BA876C900250528 /* ProjectForYandexAdsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8CCF5B2BA876C900250528 /* ProjectForYandexAdsTests.swift */; };
+		AB8CCF5D2BA876C900250528 /* ProjectForYandexAds.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8CCF4F2BA876C900250528 /* ProjectForYandexAds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB8CCF6D2BA876EB00250528 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8CCF6C2BA876EB00250528 /* AppDelegate.swift */; };
+		AB8CCF6F2BA876EB00250528 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8CCF6E2BA876EB00250528 /* SceneDelegate.swift */; };
+		AB8CCF712BA876EB00250528 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8CCF702BA876EB00250528 /* ViewController.swift */; };
+		AB8CCF742BA876EB00250528 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AB8CCF732BA876EB00250528 /* Base */; };
+		AB8CCF762BA876EC00250528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8CCF752BA876EC00250528 /* Assets.xcassets */; };
+		AB8CCF792BA876EC00250528 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AB8CCF782BA876EC00250528 /* Base */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB8CCF582BA876C900250528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB8CCF432BA876C900250528 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB8CCF4B2BA876C900250528;
+			remoteInfo = ProjectForYandexAds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CB0A8B96DC6208F24A758DB /* Pods_ProjectForYandexAds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectForYandexAds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5560AC88BA32AD812C8F1B06 /* Pods-ProjectForYandexAdsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectForYandexAdsDemo.release.xcconfig"; path = "Target Support Files/Pods-ProjectForYandexAdsDemo/Pods-ProjectForYandexAdsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		590D2040AFF5FC50A5ABD2E0 /* Pods_ProjectForYandexAdsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectForYandexAdsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4665A70FA4931BFF45C10BC /* Pods-ProjectForYandexAds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectForYandexAds.release.xcconfig"; path = "Target Support Files/Pods-ProjectForYandexAds/Pods-ProjectForYandexAds.release.xcconfig"; sourceTree = "<group>"; };
+		AB8CCF4C2BA876C900250528 /* ProjectForYandexAds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProjectForYandexAds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8CCF4F2BA876C900250528 /* ProjectForYandexAds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectForYandexAds.h; sourceTree = "<group>"; };
+		AB8CCF502BA876C900250528 /* ProjectForYandexAds.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ProjectForYandexAds.docc; sourceTree = "<group>"; };
+		AB8CCF562BA876C900250528 /* ProjectForYandexAdsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectForYandexAdsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8CCF5B2BA876C900250528 /* ProjectForYandexAdsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectForYandexAdsTests.swift; sourceTree = "<group>"; };
+		AB8CCF6A2BA876EB00250528 /* ProjectForYandexAdsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectForYandexAdsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8CCF6C2BA876EB00250528 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB8CCF6E2BA876EB00250528 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AB8CCF702BA876EB00250528 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB8CCF732BA876EB00250528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB8CCF752BA876EC00250528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB8CCF782BA876EC00250528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB8CCF7A2BA876EC00250528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6858E50E4B4CF123381A4E /* Pods-ProjectForYandexAds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectForYandexAds.debug.xcconfig"; path = "Target Support Files/Pods-ProjectForYandexAds/Pods-ProjectForYandexAds.debug.xcconfig"; sourceTree = "<group>"; };
+		F51A3EF668579E32B9B3D9B6 /* Pods-ProjectForYandexAdsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectForYandexAdsDemo.debug.xcconfig"; path = "Target Support Files/Pods-ProjectForYandexAdsDemo/Pods-ProjectForYandexAdsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB8CCF492BA876C900250528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE9C397E500EE763413BDE3 /* Pods_ProjectForYandexAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8CCF532BA876C900250528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8CCF572BA876C900250528 /* ProjectForYandexAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8CCF672BA876EB00250528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F70D2ABD9D334EA8CD42C3B /* Pods_ProjectForYandexAdsDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F3261A91D9C30EB070768FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA6858E50E4B4CF123381A4E /* Pods-ProjectForYandexAds.debug.xcconfig */,
+				A4665A70FA4931BFF45C10BC /* Pods-ProjectForYandexAds.release.xcconfig */,
+				F51A3EF668579E32B9B3D9B6 /* Pods-ProjectForYandexAdsDemo.debug.xcconfig */,
+				5560AC88BA32AD812C8F1B06 /* Pods-ProjectForYandexAdsDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		99B24AA0A3DDCC4A4F5BBF7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CB0A8B96DC6208F24A758DB /* Pods_ProjectForYandexAds.framework */,
+				590D2040AFF5FC50A5ABD2E0 /* Pods_ProjectForYandexAdsDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB8CCF422BA876C900250528 = {
+			isa = PBXGroup;
+			children = (
+				AB8CCF4E2BA876C900250528 /* ProjectForYandexAds */,
+				AB8CCF5A2BA876C900250528 /* ProjectForYandexAdsTests */,
+				AB8CCF6B2BA876EB00250528 /* ProjectForYandexAdsDemo */,
+				AB8CCF4D2BA876C900250528 /* Products */,
+				3F3261A91D9C30EB070768FD /* Pods */,
+				99B24AA0A3DDCC4A4F5BBF7E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB8CCF4D2BA876C900250528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB8CCF4C2BA876C900250528 /* ProjectForYandexAds.framework */,
+				AB8CCF562BA876C900250528 /* ProjectForYandexAdsTests.xctest */,
+				AB8CCF6A2BA876EB00250528 /* ProjectForYandexAdsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB8CCF4E2BA876C900250528 /* ProjectForYandexAds */ = {
+			isa = PBXGroup;
+			children = (
+				AB8CCF4F2BA876C900250528 /* ProjectForYandexAds.h */,
+				AB8CCF502BA876C900250528 /* ProjectForYandexAds.docc */,
+			);
+			path = ProjectForYandexAds;
+			sourceTree = "<group>";
+		};
+		AB8CCF5A2BA876C900250528 /* ProjectForYandexAdsTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB8CCF5B2BA876C900250528 /* ProjectForYandexAdsTests.swift */,
+			);
+			path = ProjectForYandexAdsTests;
+			sourceTree = "<group>";
+		};
+		AB8CCF6B2BA876EB00250528 /* ProjectForYandexAdsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AB8CCF6C2BA876EB00250528 /* AppDelegate.swift */,
+				AB8CCF6E2BA876EB00250528 /* SceneDelegate.swift */,
+				AB8CCF702BA876EB00250528 /* ViewController.swift */,
+				AB8CCF722BA876EB00250528 /* Main.storyboard */,
+				AB8CCF752BA876EC00250528 /* Assets.xcassets */,
+				AB8CCF772BA876EC00250528 /* LaunchScreen.storyboard */,
+				AB8CCF7A2BA876EC00250528 /* Info.plist */,
+			);
+			path = ProjectForYandexAdsDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AB8CCF472BA876C900250528 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8CCF5D2BA876C900250528 /* ProjectForYandexAds.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AB8CCF4B2BA876C900250528 /* ProjectForYandexAds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8CCF602BA876C900250528 /* Build configuration list for PBXNativeTarget "ProjectForYandexAds" */;
+			buildPhases = (
+				9E40928B7B5506D4B5CEDFD2 /* [CP] Check Pods Manifest.lock */,
+				AB8CCF472BA876C900250528 /* Headers */,
+				AB8CCF482BA876C900250528 /* Sources */,
+				AB8CCF492BA876C900250528 /* Frameworks */,
+				AB8CCF4A2BA876C900250528 /* Resources */,
+				B554F419756A54DD95A4656B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectForYandexAds;
+			productName = ProjectForYandexAds;
+			productReference = AB8CCF4C2BA876C900250528 /* ProjectForYandexAds.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB8CCF552BA876C900250528 /* ProjectForYandexAdsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8CCF632BA876C900250528 /* Build configuration list for PBXNativeTarget "ProjectForYandexAdsTests" */;
+			buildPhases = (
+				AB8CCF522BA876C900250528 /* Sources */,
+				AB8CCF532BA876C900250528 /* Frameworks */,
+				AB8CCF542BA876C900250528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB8CCF592BA876C900250528 /* PBXTargetDependency */,
+			);
+			name = ProjectForYandexAdsTests;
+			productName = ProjectForYandexAdsTests;
+			productReference = AB8CCF562BA876C900250528 /* ProjectForYandexAdsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB8CCF692BA876EB00250528 /* ProjectForYandexAdsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8CCF7B2BA876EC00250528 /* Build configuration list for PBXNativeTarget "ProjectForYandexAdsDemo" */;
+			buildPhases = (
+				B60476AE8AF4C230CB277620 /* [CP] Check Pods Manifest.lock */,
+				AB8CCF662BA876EB00250528 /* Sources */,
+				AB8CCF672BA876EB00250528 /* Frameworks */,
+				AB8CCF682BA876EB00250528 /* Resources */,
+				D2581501215CBA3A4863679E /* [CP] Embed Pods Frameworks */,
+				44D2743AB7FCF0A0A1764D5C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectForYandexAdsDemo;
+			productName = ProjectForYandexAdsDemo;
+			productReference = AB8CCF6A2BA876EB00250528 /* ProjectForYandexAdsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB8CCF432BA876C900250528 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					AB8CCF4B2BA876C900250528 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					AB8CCF552BA876C900250528 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					AB8CCF692BA876EB00250528 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = AB8CCF462BA876C900250528 /* Build configuration list for PBXProject "ProjectForYandexAds" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB8CCF422BA876C900250528;
+			productRefGroup = AB8CCF4D2BA876C900250528 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB8CCF4B2BA876C900250528 /* ProjectForYandexAds */,
+				AB8CCF552BA876C900250528 /* ProjectForYandexAdsTests */,
+				AB8CCF692BA876EB00250528 /* ProjectForYandexAdsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB8CCF4A2BA876C900250528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8CCF542BA876C900250528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8CCF682BA876EB00250528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8CCF762BA876EC00250528 /* Assets.xcassets in Resources */,
+				AB8CCF792BA876EC00250528 /* Base in Resources */,
+				AB8CCF742BA876EB00250528 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44D2743AB7FCF0A0A1764D5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectForYandexAdsDemo/Pods-ProjectForYandexAdsDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectForYandexAdsDemo/Pods-ProjectForYandexAdsDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProjectForYandexAdsDemo/Pods-ProjectForYandexAdsDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E40928B7B5506D4B5CEDFD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProjectForYandexAds-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B554F419756A54DD95A4656B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectForYandexAds/Pods-ProjectForYandexAds-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectForYandexAds/Pods-ProjectForYandexAds-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProjectForYandexAds/Pods-ProjectForYandexAds-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B60476AE8AF4C230CB277620 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProjectForYandexAdsDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2581501215CBA3A4863679E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectForYandexAdsDemo/Pods-ProjectForYandexAdsDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectForYandexAdsDemo/Pods-ProjectForYandexAdsDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProjectForYandexAdsDemo/Pods-ProjectForYandexAdsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB8CCF482BA876C900250528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8CCF512BA876C900250528 /* ProjectForYandexAds.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8CCF522BA876C900250528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8CCF5C2BA876C900250528 /* ProjectForYandexAdsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8CCF662BA876EB00250528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8CCF712BA876EB00250528 /* ViewController.swift in Sources */,
+				AB8CCF6D2BA876EB00250528 /* AppDelegate.swift in Sources */,
+				AB8CCF6F2BA876EB00250528 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB8CCF592BA876C900250528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB8CCF4B2BA876C900250528 /* ProjectForYandexAds */;
+			targetProxy = AB8CCF582BA876C900250528 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB8CCF722BA876EB00250528 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB8CCF732BA876EB00250528 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB8CCF772BA876EC00250528 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB8CCF782BA876EC00250528 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB8CCF5E2BA876C900250528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB8CCF5F2BA876C900250528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB8CCF612BA876C900250528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA6858E50E4B4CF123381A4E /* Pods-ProjectForYandexAds.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = J2QE2TYMG9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = yakuza.org.ProjectForYandexAds;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB8CCF622BA876C900250528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4665A70FA4931BFF45C10BC /* Pods-ProjectForYandexAds.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = J2QE2TYMG9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = yakuza.org.ProjectForYandexAds;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB8CCF642BA876C900250528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2QE2TYMG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yakuza.org.ProjectForYandexAdsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB8CCF652BA876C900250528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2QE2TYMG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yakuza.org.ProjectForYandexAdsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB8CCF7C2BA876EC00250528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F51A3EF668579E32B9B3D9B6 /* Pods-ProjectForYandexAdsDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2QE2TYMG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProjectForYandexAdsDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yakuza.org.ProjectForYandexAdsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB8CCF7D2BA876EC00250528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5560AC88BA32AD812C8F1B06 /* Pods-ProjectForYandexAdsDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2QE2TYMG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProjectForYandexAdsDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yakuza.org.ProjectForYandexAdsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB8CCF462BA876C900250528 /* Build configuration list for PBXProject "ProjectForYandexAds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8CCF5E2BA876C900250528 /* Debug */,
+				AB8CCF5F2BA876C900250528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB8CCF602BA876C900250528 /* Build configuration list for PBXNativeTarget "ProjectForYandexAds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8CCF612BA876C900250528 /* Debug */,
+				AB8CCF622BA876C900250528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB8CCF632BA876C900250528 /* Build configuration list for PBXNativeTarget "ProjectForYandexAdsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8CCF642BA876C900250528 /* Debug */,
+				AB8CCF652BA876C900250528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB8CCF7B2BA876EC00250528 /* Build configuration list for PBXNativeTarget "ProjectForYandexAdsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8CCF7C2BA876EC00250528 /* Debug */,
+				AB8CCF7D2BA876EC00250528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB8CCF432BA876C900250528 /* Project object */;
+}
